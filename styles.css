@@ -1,0 +1,130 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; 
+    color: #333;
+}
+
+/* Menu */
+nav {
+    background-color: #2c3e50; 
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3498db; 
+}
+
+/* Ana Kutular */
+.container {
+    background-color: #ffffff; 
+    margin: 30px auto; 
+    padding: 30px;
+    max-width: 700px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-top: 4px solid #3498db; 
+}
+
+/* Headings */
+h1 {
+    color: #333333; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333333;
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Profile Photo */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #3498db; /
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* İçerik ve Listeler */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Projects */
+.project-item {
+    background-color: #f8f9fa; 
+    border: 1px solid #e9ecef;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.project-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.project-item h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+/* Contact Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
